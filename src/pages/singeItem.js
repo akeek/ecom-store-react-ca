@@ -28,7 +28,7 @@ function SingleItem() {
   }
 
   return (
-    <div className={styles.card}>
+    <section className={styles.card}>
       <div>
         <h1>{data.title}</h1>
       </div>
@@ -42,7 +42,7 @@ function SingleItem() {
           className={styles.productImg}
         />
         <p className={styles.description}>{data.description}</p>
-        <p className={styles.price}>
+        <div className={styles.price}>
           {" "}
           {data.price === data.discountedPrice
             ? `${data.price} kr `
@@ -51,7 +51,7 @@ function SingleItem() {
               <p className={styles.newPrice}> On sale for {data.discountedPrice},-</p>
               <p>Save: {Math.round((data.price - data.discountedPrice)).toFixed(2)},-</p>
             </div>}
-        </p>
+        </div>
       </div>
       <section>
         {data.reviews ? (
@@ -82,7 +82,7 @@ function SingleItem() {
         </button>
         <ToastContainer autoClose={1500} />
       </section>
-    </div>
+    </section>
   );
 }
 
