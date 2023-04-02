@@ -1,0 +1,23 @@
+.H1 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.emptyBtn {
+    padding: 15px;
+    background-color: rgba(173, 216, 230, 0.188);
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.emptyBtn:hover {
+    background-color: rgb(74, 110, 228);
+    color: white;
+}

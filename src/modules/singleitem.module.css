@@ -1,0 +1,79 @@
+.card {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    max-width: 90%;
+    border: 1px solid #e0e2e2;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: left;
+    padding: 0;
+}
+
+.productImg {
+    width: 90%;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.description {
+    max-width: 500px;
+    margin: auto;
+    font-weight: 500;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.price {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.price p {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.reviewInfo {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.reviewName {
+    font-weight: bold;
+}
+
+.rating {
+    padding: 0;
+    text-align: left;
+    color: rgb(128, 128, 128);
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: red;
+}
+
+.newPrice {
+    color: green;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(74, 110, 228);
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}
