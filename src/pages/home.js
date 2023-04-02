@@ -25,9 +25,7 @@ function Home() {
 
   const { data, isLoading, isError } = ApiFetchHook(url);
   if (!isLoading) {
-    console.log(data);
   }
-
   const query = data.filter((product) => {
     return product.title.toLowerCase().startsWith(search.toLowerCase());
   });
