@@ -97,10 +97,11 @@ footer {
 
 footer h5 {
   padding: 60px 0;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   font-size: small;
   font-weight: 300;
+  max-width: 90%;
 }
 
 .navlink {

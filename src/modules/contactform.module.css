@@ -54,3 +54,9 @@ input {
     background-color: rgb(74, 110, 228);
     color: white;
 }
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+}

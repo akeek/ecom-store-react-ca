@@ -60,7 +60,7 @@ function ContactForm() {
                         <ErrorMessage
                             errors={errors}
                             name="name"
-                            render={({ message }) => <p>{message}</p>}
+                            render={({ message }) => <p className={styles.errorMessage}>{message}</p>}
                         />
                         <label htmlFor="email">Email</label>
                         <input
@@ -75,7 +75,7 @@ function ContactForm() {
                         <ErrorMessage
                             errors={errors}
                             name="email"
-                            render={({ message }) => <p>{message}</p>}
+                            render={({ message }) => <p className={styles.errorMessage}>{message}</p>}
                         />
                         <label htmlFor="subject">Subject</label>
                         <input
@@ -90,7 +90,7 @@ function ContactForm() {
                         <ErrorMessage
                             errors={errors}
                             name="subject"
-                            render={({ message }) => <p>{message}</p>}
+                            render={({ message }) => <p className={styles.errorMessage}>{message}</p>}
                         />
                         <label htmlFor="message">Message</label>
                         <input
@@ -105,7 +105,7 @@ function ContactForm() {
                         <ErrorMessage
                             errors={errors}
                             name="message"
-                            render={({ message }) => <p>{message}</p>}
+                            render={({ message }) => <p className={styles.errorMessage}>{message}</p>}
                         />
                     <button className={styles.formBtn}>
                         Submit
