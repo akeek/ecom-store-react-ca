@@ -14,8 +14,6 @@ function ItemInCart() {
     return total.toFixed(2);
   }
 
-  console.log(cart);
-
   const discardItem = (itemId) => {
     discardFromCart(itemId);
   };
@@ -35,11 +33,12 @@ function ItemInCart() {
                 />
               </div>
               <div>
-                <p className={styles.title}>{item.title} </p>
-                <p className={styles.price}>{item.price !== item.discountedPrice && (
+                <h5 className={styles.title}>{item.title} </h5>
+                <div className={styles.price}>{item.price !== item.discountedPrice && (
                 <p className={styles.oldPrice}>{item.price},-</p>
                 )}
-                  <p className={styles.newPrice}>{item.discountedPrice},-</p></p>
+                <p className={styles.newPrice}>{item.discountedPrice},-</p>
+                </div>
               </div>
               <button
                 className={styles.trashBtn}

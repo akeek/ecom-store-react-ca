@@ -77,7 +77,6 @@ function SingleItem() {
           onClick={() => {
             addToCart(data);
             alert();
-            console.log(data)
           }}>Add to cart
         </button>
         <ToastContainer autoClose={1500} />
