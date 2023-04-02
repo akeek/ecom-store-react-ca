@@ -21,6 +21,15 @@ nav {
   padding: 10px;
 }
 
+.navlogo {
+  text-decoration: none;
+  color: black;
+}
+
+.navlogo:hover {
+  color: black;
+}
+
 header {
   height: 70px;
   display: flex;

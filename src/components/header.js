@@ -15,7 +15,7 @@ function Nav() {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="cart">
+          <Link to="/cart">
             <div className="cartContainer">
               <img src="/cart.png" alt="" className="nav--img" />
               <p className="cart-length">{cart.length}</p>
@@ -31,7 +31,9 @@ function Header() {
   return (
     <header>
       <div>
-        <h2>Daily Depot</h2>
+        <h2>
+          <Link to="/" className="navlogo">Daily Depot</Link>
+        </h2>
       </div>
       <Nav />
     </header>
