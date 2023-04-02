@@ -59,7 +59,7 @@ function SingleItem() {
             <h3>Reviews:</h3>
             {data.reviews.map((review) => {
               return (
-                <div>
+                <div key={review.id}>
                   <span className={styles.reviewName}>Name: </span><span>{review.username}</span>
                   <br></br>
                   <span className={styles.reviewName}>Rating: </span><span>{review.rating}</span>
