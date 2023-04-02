@@ -54,7 +54,7 @@ function ContactForm() {
                             minLength: 3,
                             })}
                             value={name}
-                            placeholder="Your name"
+                            placeholder="Your name, minimum 3 characters"
                             onChange={onTextInputChange}
                         />
                         <ErrorMessage
@@ -84,7 +84,7 @@ function ContactForm() {
                                 minLength: 3,
                                 })}
                             value={subject}
-                            placeholder="Your subject"
+                            placeholder="Your subject, minimum 3 characters"
                             onChange={onTextInputChange}
                         />
                         <ErrorMessage
@@ -99,7 +99,7 @@ function ContactForm() {
                                 minLength: 3,
                                 })}
                             value={message}
-                            placeholder="Your message"
+                            placeholder="Your message, minimum 3 characters"
                             onChange={onTextInputChange}
                         />
                         <ErrorMessage
