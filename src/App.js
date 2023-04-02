@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from './components/layout';
 import Home from './pages/home';
 import ContactForm from './pages/contact';
-import ContactForm1 from './pages/contact1';
 import NotFound from './pages/notFound';
 import Cart from './pages/cart/index';
 import SingleItem from './pages/singeItem';
@@ -19,14 +18,12 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="contact" element={<ContactForm />} />
-        <Route path="contact1" element={<ContactForm1 />} />
         <Route path="cart" element={<Cart />} />
         <Route path="success" element={<CheckoutSuccess />} />
         <Route path="item/:id" element={<SingleItem />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-
   );
 }
 
