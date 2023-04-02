@@ -14,7 +14,7 @@ function Products({ products, isLoading, isError }) {
   return (
     <div className={styles.grid}>
       {products.map((product) => (
-        <Item key={products.id} product={product} />
+        <Item key={product.id} product={product} />
       ))}
     </div>
   );
