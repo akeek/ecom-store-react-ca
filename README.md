@@ -1,5 +1,3 @@
-HOLIDAZE - A bookingplatform
-
 <img src="./public/printscreen-homepage.png">
 
 [Live site - Hosted on Netlify](https://stunning-valkyrie-e96f79.netlify.app/)
